@@ -52,7 +52,7 @@ div.pacman.highlighted {
 .pacman>div:nth-child(3),
 .pacman>div:nth-child(4),
 .pacman>div:nth-child(5) {
-    animation: pacman-balls 1.5s infinite linear;
+    animation: pacman-balls 1s infinite linear;
     background-color: white;
     border-radius: 50%;
     width: 6px;
@@ -1191,6 +1191,12 @@ header {
     .contact-index {
         .logo_contact {
             padding-right: 17px;
+        }
+
+        .tryhackme_logo{
+            .logo_contact{
+                padding-right: 13px;
+            }
         }
 
         i {
