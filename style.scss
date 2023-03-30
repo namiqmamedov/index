@@ -586,9 +586,6 @@ header {
 
     padding: 120px 14%;
     background-color: #14121C;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-gap: 5rem;
     align-items: center;
 
     .work-content {
@@ -624,10 +621,8 @@ header {
         .flex-container,
         .c-logo {
             display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
+            flex-wrap: wrap;
             justify-content: center;
-            align-content: stretch;
             align-items: center;
             gap: 12rem;
         }
